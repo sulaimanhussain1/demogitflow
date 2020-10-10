@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            counter-reset: my-counter 0;
+        }
+        h1 {
+            text-align: center;
+            color: aqua;
+            text-decoration: aqua underline;
+        }
+        h2::before {
+            content: "Chapter " counter(my-counter) " : "; 
+            counter-increment: my-counter 1;
+            color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <h1>COUNTER</h1>
+   
+    <h2>Lorem ipsum dolor sit.</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis expedita hic minus nostrum amet rerum eveniet voluptas et modi aspernatur doloribus accusamus ratione pariatur, deserunt corrupti inventore quae tenetur eaque. Distinctio praesentium nemo odio, omnis animi, aliquid quae saepe similique rerum eum enim! Alias distinctio commodi possimus repellendus eum ab?</p>
+
+
+    <h2>Lorem ipsum dolor sit.</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis expedita hic minus nostrum amet rerum eveniet voluptas et modi aspernatur doloribus accusamus ratione pariatur, deserunt corrupti inventore quae tenetur eaque. Distinctio praesentium nemo odio, omnis animi, aliquid quae saepe similique rerum eum enim! Alias distinctio commodi possimus repellendus eum ab?</p>
+
+
+    <h2>Lorem ipsum dolor sit.</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis expedita hic minus nostrum amet rerum eveniet voluptas et modi aspernatur doloribus accusamus ratione pariatur, deserunt corrupti inventore quae tenetur eaque. Distinctio praesentium nemo odio, omnis animi, aliquid quae saepe similique rerum eum enim! Alias distinctio commodi possimus repellendus eum ab?</p>
+
+
+    <h2>Lorem ipsum dolor sit.</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis expedita hic minus nostrum amet rerum eveniet voluptas et modi aspernatur doloribus accusamus ratione pariatur, deserunt corrupti inventore quae tenetur eaque. Distinctio praesentium nemo odio, omnis animi, aliquid quae saepe similique rerum eum enim! Alias distinctio commodi possimus repellendus eum ab?</p>
+
+
+
+</body>
+</html>
